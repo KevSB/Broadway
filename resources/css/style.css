@@ -9,11 +9,6 @@ h1 {
   color: white;
 }
 
-ul {
-  font-size: 18pt;
-  color: white;
-}
-
 h2 {
   font-size: 32px;
   font-weight: bold;
@@ -32,6 +27,26 @@ h3.image {
   color: white;
 }
 
+nav a {
+  font-size: 18px;
+  color: white;
+}
+
 .image {
   background-image: url("../images/the-flatiron-building.png");
+  background-size: cover;
+}
+
+.copywrite {
+  color: white;
+  font-size: 11px;
+}
+
+footer .foot {
+  display: inline;
+}
+
+footer {
+  text-align: left;
+  background-color: dimgray;
 }
